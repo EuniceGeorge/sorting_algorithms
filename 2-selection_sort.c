@@ -32,7 +32,7 @@ void selection_sort(int *array, size_t size)
 {
 	size_t  k, pos, temp;
 
-	for (k = 0; k < size; k++)
+	for (k = 0; k < size - 1; k++)
 	{
 		pos = smallest(array, k, size);
 		temp = array[k];
